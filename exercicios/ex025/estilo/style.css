@@ -17,8 +17,8 @@ header {
 
 fieldset {
     margin-top: 20px;
-    padding: 5px;
+    padding: 7px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: #5a616f 3px 3px 5px;
 }
