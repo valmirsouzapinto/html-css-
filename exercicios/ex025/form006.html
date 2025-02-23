@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo/style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <header>
+      <h1>Exemplo de Formulário</h1>
+    </header>
+    <main>
+      <div name="areadados">
+        <form action="cadastro.php" method="post" autocomplete="on">
+          <fieldset>
+            <legend>Color/Range/File</legend>
+            <p>
+                <label for="icor">Cor: </label>
+                <input type="color" name="cor" id="icor" value="#00ff00"> 
+            </p>
+            <p>
+                <label for="inivel">Nível de Satisfação:</label>
+                <input type="range" name="nivel" id="inivel">
+            </p>
+            <p>
+                <label for="ifile">Foto de Perfil:</label>
+                <input type="file" name="foto" id="ifoto">
+                <!-- Quando for enviar dados tipo file, o metodo devera ser post -->
+            </p>
+
+          </fieldset>
+          <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+          </p>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
