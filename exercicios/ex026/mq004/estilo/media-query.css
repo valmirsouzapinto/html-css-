@@ -41,7 +41,6 @@ Grandes telas: acima de 1200px
     img#print { display: block; }
     img#pc { display: none; }
     img#tv { display: none; }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
@@ -66,7 +65,6 @@ Grandes telas: acima de 1200px
     img#print { display: none; }
     img#pc { display: block; }
     img#tv { display: none; }
-
 }
 
 @media screen and (min-width: 1200px) { /* GRANDES TELAS */
@@ -79,5 +77,4 @@ Grandes telas: acima de 1200px
     img#print { display: none; }
     img#pc { display: none; }
     img#tv { display: block; }
-        
 }
